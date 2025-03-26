@@ -793,6 +793,14 @@ video {
     width: 40%;
   }
 
+  .md\:w-\[60\%\] {
+    width: 60%;
+  }
+
+  .md\:p-\[50px\] {
+    padding: 50px;
+  }
+
   .md\:pt-\[60px\] {
     padding-top: 60px;
   }
