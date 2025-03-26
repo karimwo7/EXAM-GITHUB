@@ -558,8 +558,24 @@ video {
   margin: auto;
 }
 
+.mb-\[20px\] {
+  margin-bottom: 20px;
+}
+
+.mt-\[20px\] {
+  margin-top: 20px;
+}
+
 .flex {
   display: flex;
+}
+
+.h-\[40px\] {
+  height: 40px;
+}
+
+.h-\[30px\] {
+  height: 30px;
 }
 
 .w-\[\] {
@@ -622,6 +638,50 @@ video {
   width: 30%;
 }
 
+.w-\[65\%\] {
+  width: 65%;
+}
+
+.w-\[68\%\] {
+  width: 68%;
+}
+
+.w-\[67\%\] {
+  width: 67%;
+}
+
+.w-\[\%\] {
+  width: %;
+}
+
+.w-\[3\%\] {
+  width: 3%;
+}
+
+.w-\[37\%\] {
+  width: 37%;
+}
+
+.w-\[35\%\] {
+  width: 35%;
+}
+
+.w-\[34\%\] {
+  width: 34%;
+}
+
+.w-\[33\%\] {
+  width: 33%;
+}
+
+.w-\[150\%\] {
+  width: 150%;
+}
+
+.w-\[250\%\] {
+  width: 250%;
+}
+
 .justify-between {
   justify-content: space-between;
 }
@@ -636,6 +696,37 @@ video {
 
 .gap-10 {
   gap: 2.5rem;
+}
+
+.rounded-\[20px\] {
+  border-radius: 20px;
+}
+
+.rounded-\[10px\] {
+  border-radius: 10px;
+}
+
+.rounded-\[5px\] {
+  border-radius: 5px;
+}
+
+.rounded-\[\] {
+  border-radius: ;
+}
+
+.bg-\[black\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[gray\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(128 128 128 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#dfdfdf\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(223 223 223 / var(--tw-bg-opacity, 1));
 }
 
 .p-\[20px\] {
@@ -710,6 +801,22 @@ video {
   padding-top: 40px;
 }
 
+.pl-\[50px\] {
+  padding-left: 50px;
+}
+
+.pl-\[\] {
+  padding-left: ;
+}
+
+.pl-\[200px\] {
+  padding-left: 200px;
+}
+
+.pl-\[300px\] {
+  padding-left: 300px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -732,6 +839,10 @@ video {
 
 .text-\[20px\] {
   font-size: 20px;
+}
+
+.text-\[10px\] {
+  font-size: 10px;
 }
 
 .font-bold {
@@ -773,6 +884,14 @@ video {
     padding-bottom: 20px;
   }
 
+  .xs\:pl-\[20px\] {
+    padding-left: 20px;
+  }
+
+  .xs\:pl-\[40px\] {
+    padding-left: 40px;
+  }
+
   @media (min-width: 510px) {
     .xs\:md\:w-\[50\%\] {
       width: 50%;
@@ -797,11 +916,19 @@ video {
     width: 60%;
   }
 
+  .md\:w-\[250\%\] {
+    width: 250%;
+  }
+
   .md\:p-\[50px\] {
     padding: 50px;
   }
 
   .md\:pt-\[60px\] {
     padding-top: 60px;
+  }
+
+  .md\:pl-\[300px\] {
+    padding-left: 300px;
   }
 }
