@@ -605,3 +605,33 @@ video {
 .text-\[40px\] {
   font-size: 40px;
 }
+
+.font-bold {
+  font-weight: 700;
+}
+
+@media (min-width: 0px) {
+  .xs\:hidden {
+    display: none;
+  }
+
+  .xs\:w-\[80\%\] {
+    width: 80%;
+  }
+
+  @media (min-width: 510px) {
+    .xs\:md\:w-\[50\%\] {
+      width: 50%;
+    }
+  }
+}
+
+@media (min-width: 510px) {
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:w-\[50\%\] {
+    width: 50%;
+  }
+}
